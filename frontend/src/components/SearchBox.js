@@ -10,6 +10,7 @@ const SearchBox = ({ history }) => {
             history.push(`/search/${keyword}`)
         } else {
             history.push('/')
+            console.log('sdf')
         }
     }
 
