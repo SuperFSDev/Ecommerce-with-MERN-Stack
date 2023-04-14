@@ -11,7 +11,7 @@ const User = mongoose.model("User");
 const Product = mongoose.model("Product");
 const Order=mongoose.model("Order");
 connectDB()
-//dfa
+//dfasasdf
 const importData = async () => {
   try {
     await User.deleteMany()
